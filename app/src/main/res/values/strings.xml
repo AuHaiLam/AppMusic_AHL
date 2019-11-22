@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppMusic_AHL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">682078648956678</string>
+    <string name="fb_login_protocol_scheme">fb682078648956678</string>
+</resources>
