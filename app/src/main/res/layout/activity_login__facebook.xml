@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.Login_Facebook">
+    tools:context="com.example.AppMusic_AHL.activity.Login_Facebook">
 
     <com.facebook.login.widget.ProfilePictureView
         android:id="@+id/ProfilePicture"
@@ -21,12 +21,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp" />
-
-    <TextView
-        android:id="@+id/tv_info"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center" />
 
 
 </LinearLayout>

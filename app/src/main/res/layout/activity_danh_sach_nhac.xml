@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.DanhSachNhac">
+    tools:context="com.example.AppMusic_AHL.activity.DanhSachNhac">
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:gravity="center"
@@ -18,11 +18,62 @@
         android:textSize="34dp"
         android:textStyle="bold" />
 
-    <ListView
+    <android.support.v7.widget.RecyclerView
 
-        android:id="@+id/lvDanhsach"
+        android:id="@+id/rvDanhsachNhac"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="400dp"
         android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/txt_dang_phat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:fontFamily="serif"
+        android:text="Đang phát: "
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/bt_re"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_fast_rewind_black_24dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/bt_pause"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_pause_circle_filled_black_24dp"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/bt_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_fast_forward_black_24dp"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
 
 </LinearLayout>

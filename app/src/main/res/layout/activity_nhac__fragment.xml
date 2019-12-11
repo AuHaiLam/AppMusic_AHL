@@ -6,7 +6,7 @@
     android:layout_gravity="center"
     android:layout_marginTop="40dp"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.Nhac_Fragment">
+    tools:context="com.example.AppMusic_AHL.fragment.Nhac_Fragment">
 
 
     <LinearLayout

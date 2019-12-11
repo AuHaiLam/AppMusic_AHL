@@ -13,26 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login_Facebook"></activity>
-        <activity android:name=".Video_Fragment_ThongTin" />
-        <activity android:name=".Video_Fragment_TiepTheo" />
-        <activity android:name=".TinTuc_Fragment" />
-        <activity android:name=".PhatVideo" />
-        <activity android:name=".Video_Fragment" />
-        <activity android:name=".DanhSachNhac_TheLoai" />
-        <activity android:name=".DanhSachTheLoai" />
-        <activity android:name=".DanhSachPlayList" />
-        <activity android:name=".DanhSachNhac_CaSi" />
-        <activity android:name=".DanhSachCaSi" />
-        <activity android:name=".PhatNhac" />
-        <activity android:name=".DanhSachNhac" />
-        <activity android:name=".Nhac_Fragment" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".WelcomeActivity">
+        <activity android:name=".activity.DanhSachNhac"></activity>
+        <activity android:name=".activity.DanhsachPlayList" />
+        <activity android:name=".activity.DanhSachNhac_CaSi" />
+        <activity android:name=".activity.Login_Facebook" />
+        <activity android:name=".fragment.Video_Fragment_ThongTin" />
+        <activity android:name=".fragment.Video_Fragment_TiepTheo" />
+        <activity android:name=".fragment.TinTuc_Fragment" />
+        <activity android:name=".activity.PhatVideo" />
+        <activity android:name=".fragment.Video_Fragment" />
+        <activity android:name=".activity.DanhSachTheLoai" />
+        <activity android:name=".activity.DanhSachCaSi" />
+        <activity android:name=".activity.PhatNhac" />
+        <activity android:name=".fragment.Nhac_Fragment" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.WelcomeActivity">
             <meta-data
                 android:name="com.facebook.sdk.ApplicationId"
                 android:value="@string/facebook_app_id" />
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

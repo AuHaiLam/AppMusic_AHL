@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.TinTuc_Fragment">
+    tools:context="com.example.AppMusic_AHL.fragment.TinTuc_Fragment">
 
     <WebView
         android:id="@+id/webView"

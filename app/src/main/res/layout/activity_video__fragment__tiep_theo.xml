@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.AppMusic_AHL.Video_Fragment_TiepTheo">
+    tools:context="com.example.AppMusic_AHL.fragment.Video_Fragment_TiepTheo">
 
     <ListView
         android:id="@+id/lvvideo_thongtin"

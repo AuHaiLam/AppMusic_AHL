@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.DanhSachNhac_CaSi">
+    tools:context="com.example.AppMusic_AHL.activity.DanhSachNhac_CaSi">
 
     <LinearLayout
         android:layout_width="wrap_content"

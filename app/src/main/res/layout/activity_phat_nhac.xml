@@ -3,14 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.AppMusic_AHL.PhatNhac">
+    tools:context="com.example.AppMusic_AHL.activity.PhatNhac">
 
     <TextView
-        android:id="@+id/tvTen"
+        android:id="@+id/tvTenbh"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="5dp"
         android:text="Tên bài hát"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTenSica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTenbh"
+        android:padding="5dp"
+        android:text="Tên Ca Sĩ"
         android:textSize="24sp" />
 
     <SeekBar
@@ -23,21 +33,23 @@
         android:layout_marginBottom="231dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="232dp"
+        android:id="@+id/imgAnhDia"
+        android:layout_width="210dp"
+        android:layout_height="197dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="73dp"
-        android:layout_marginLeft="73dp"
-        android:layout_marginEnd="71dp"
-        android:layout_marginRight="71dp"
-        android:layout_marginBottom="335dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="343dp"
         android:src="@drawable/iconmusicplayer" />
 
     <ImageButton
+        android:onClick="BtnNext"
         android:id="@+id/btnNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,6 +62,7 @@
         android:src="@drawable/ic_fast_forward_black_24dp" />
 
     <ImageButton
+        android:onClick="BtnPrev"
         android:id="@+id/btnPrev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,6 +76,7 @@
         android:src="@drawable/ic_fast_rewind_black_24dp" />
 
     <ImageButton
+        android:onClick="BtnPlay"
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,7 +91,7 @@
         android:layout_marginRight="155dp"
         android:layout_marginBottom="109dp"
         android:background="@null"
-        android:src="@drawable/ic_play_circle_filled_black_24dp" />
+        android:src="@drawable/ic_pause_circle_filled_black_24dp" />
 
     <TextView
         android:id="@+id/tvTimeSong"
@@ -104,6 +118,8 @@
         android:text="00:00" />
 
     <ImageButton
+        android:id="@+id/btnRandom"
+        android:onClick="BtnRamDom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -113,9 +129,11 @@
         android:layout_marginRight="360dp"
         android:layout_marginBottom="134dp"
         android:background="@null"
-        android:src="@drawable/ic_shuffle_black_24dp" />
+        android:src="@drawable/ic_random_pink_24dp" />
 
     <ImageButton
+        android:id="@+id/btnReapet"
+        android:onClick="Btnrepeat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -125,7 +143,7 @@
         android:layout_marginRight="31dp"
         android:layout_marginBottom="133dp"
         android:background="@null"
-        android:src="@drawable/ic_repeat_black_24dp" />
+        android:src="@drawable/ic_repeat_pink_24dp" />
 
     <ImageButton
         android:id="@+id/btnTimList"
@@ -145,6 +163,7 @@
         android:src="@drawable/ic_favorite" />
 
     <ImageButton
+        android:onClick="BtnFB"
         android:id="@+id/btnShare"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -171,7 +190,8 @@
         android:src="@drawable/ic_snooze_black_24dp" />
 
     <ImageButton
-        android:id="@+id/btnDanhssac"
+        android:id="@+id/btnDanhssachicon"
+        android:onClick="DanhSachIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

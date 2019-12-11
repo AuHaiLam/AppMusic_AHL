@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context="com.example.AppMusic_AHL.DanhSachPlayList">
+    tools:context="com.example.AppMusic_AHL.activity.DanhsachPlayList">
 
     <TextView
         android:layout_width="match_parent"
